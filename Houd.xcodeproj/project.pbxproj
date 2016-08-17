@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B202D9126B9EE215EAED86E7 /* Pods_Houd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C8750F021B06A9703020306 /* Pods_Houd.framework */; };
 		FE0781C51D5AD8EA007D0FD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0781C41D5AD8EA007D0FD6 /* AppDelegate.swift */; };
 		FE0781C71D5AD8EA007D0FD6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0781C61D5AD8EA007D0FD6 /* ViewController.swift */; };
 		FE0781CA1D5AD8EA007D0FD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE0781C81D5AD8EA007D0FD6 /* Main.storyboard */; };
 		FE0781CC1D5AD8EA007D0FD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE0781CB1D5AD8EA007D0FD6 /* Assets.xcassets */; };
 		FE0781CF1D5AD8EA007D0FD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE0781CD1D5AD8EA007D0FD6 /* LaunchScreen.storyboard */; };
+		FE0781D71D5ADF8A007D0FD6 /* TelaInicialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0781D61D5ADF8A007D0FD6 /* TelaInicialViewController.swift */; };
+		FE0781DE1D5AE38C007D0FD6 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE0781DB1D5AE38C007D0FD6 /* FBSDKCoreKit.framework */; };
+		FE0781DF1D5AE38C007D0FD6 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE0781DC1D5AE38C007D0FD6 /* FBSDKLoginKit.framework */; };
+		FE0781E01D5AE38C007D0FD6 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE0781DD1D5AE38C007D0FD6 /* FBSDKShareKit.framework */; };
+		FEA1CFD01D63EBB200A49CD6 /* F_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FEA1CFCF1D63EBB200A49CD6 /* F_icon.png */; };
+		FEA1CFD21D63EF6900A49CD6 /* Houd Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FEA1CFD11D63EF6900A49CD6 /* Houd Icon.png */; };
+		FEA1CFD41D63F09800A49CD6 /* Icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = FEA1CFD31D63F09800A49CD6 /* Icon-60.png */; };
+		FED514C31D615BDB0073F96C /* TelaRegistroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED514C21D615BDB0073F96C /* TelaRegistroViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		289DDEB78208ED81F0D3710F /* Pods-Houd.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Houd.release.xcconfig"; path = "Pods/Target Support Files/Pods-Houd/Pods-Houd.release.xcconfig"; sourceTree = "<group>"; };
+		6C8750F021B06A9703020306 /* Pods_Houd.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Houd.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75BBA3645FFC0D0070196EAC /* Pods-Houd.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Houd.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Houd/Pods-Houd.debug.xcconfig"; sourceTree = "<group>"; };
 		FE0781C11D5AD8EA007D0FD6 /* Houd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Houd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE0781C41D5AD8EA007D0FD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE0781C61D5AD8EA007D0FD6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +34,15 @@
 		FE0781CB1D5AD8EA007D0FD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE0781CE1D5AD8EA007D0FD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE0781D01D5AD8EA007D0FD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE0781D61D5ADF8A007D0FD6 /* TelaInicialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TelaInicialViewController.swift; sourceTree = "<group>"; };
+		FE0781DB1D5AE38C007D0FD6 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		FE0781DC1D5AE38C007D0FD6 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		FE0781DD1D5AE38C007D0FD6 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		FE0781E11D5AE7A5007D0FD6 /* Houd-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Houd-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		FEA1CFCF1D63EBB200A49CD6 /* F_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = F_icon.png; sourceTree = "<group>"; };
+		FEA1CFD11D63EF6900A49CD6 /* Houd Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Houd Icon.png"; sourceTree = "<group>"; };
+		FEA1CFD31D63F09800A49CD6 /* Icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60.png"; sourceTree = "<group>"; };
+		FED514C21D615BDB0073F96C /* TelaRegistroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TelaRegistroViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +50,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE0781DF1D5AE38C007D0FD6 /* FBSDKLoginKit.framework in Frameworks */,
+				FE0781DE1D5AE38C007D0FD6 /* FBSDKCoreKit.framework in Frameworks */,
+				FE0781E01D5AE38C007D0FD6 /* FBSDKShareKit.framework in Frameworks */,
+				B202D9126B9EE215EAED86E7 /* Pods_Houd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F518962CB8291F70AB7C54F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				75BBA3645FFC0D0070196EAC /* Pods-Houd.debug.xcconfig */,
+				289DDEB78208ED81F0D3710F /* Pods-Houd.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		50AFF0D32E744495F2B9B4D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C8750F021B06A9703020306 /* Pods_Houd.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FE0781B81D5AD8EA007D0FD6 = {
 			isa = PBXGroup;
 			children = (
+				FE0781DA1D5AE34D007D0FD6 /* Structs */,
 				FE0781C31D5AD8EA007D0FD6 /* Houd */,
 				FE0781C21D5AD8EA007D0FD6 /* Products */,
+				0F518962CB8291F70AB7C54F /* Pods */,
+				50AFF0D32E744495F2B9B4D9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +99,46 @@
 		FE0781C31D5AD8EA007D0FD6 /* Houd */ = {
 			isa = PBXGroup;
 			children = (
+				FEA1CFCD1D63EBB200A49CD6 /* Images */,
+				FE0781E11D5AE7A5007D0FD6 /* Houd-Bridging-Header.h */,
 				FE0781C41D5AD8EA007D0FD6 /* AppDelegate.swift */,
 				FE0781C61D5AD8EA007D0FD6 /* ViewController.swift */,
 				FE0781C81D5AD8EA007D0FD6 /* Main.storyboard */,
 				FE0781CB1D5AD8EA007D0FD6 /* Assets.xcassets */,
 				FE0781CD1D5AD8EA007D0FD6 /* LaunchScreen.storyboard */,
 				FE0781D01D5AD8EA007D0FD6 /* Info.plist */,
+				FE0781D61D5ADF8A007D0FD6 /* TelaInicialViewController.swift */,
+				FED514C21D615BDB0073F96C /* TelaRegistroViewController.swift */,
 			);
 			path = Houd;
+			sourceTree = "<group>";
+		};
+		FE0781DA1D5AE34D007D0FD6 /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				FE0781DB1D5AE38C007D0FD6 /* FBSDKCoreKit.framework */,
+				FE0781DC1D5AE38C007D0FD6 /* FBSDKLoginKit.framework */,
+				FE0781DD1D5AE38C007D0FD6 /* FBSDKShareKit.framework */,
+			);
+			name = Structs;
+			sourceTree = "<group>";
+		};
+		FEA1CFCD1D63EBB200A49CD6 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				FEA1CFCE1D63EBB200A49CD6 /* Icons */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		FEA1CFCE1D63EBB200A49CD6 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				FEA1CFD11D63EF6900A49CD6 /* Houd Icon.png */,
+				FEA1CFD31D63F09800A49CD6 /* Icon-60.png */,
+				FEA1CFCF1D63EBB200A49CD6 /* F_icon.png */,
+			);
+			path = Icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +148,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FE0781D31D5AD8EA007D0FD6 /* Build configuration list for PBXNativeTarget "Houd" */;
 			buildPhases = (
+				3D95394AE86BAD599A910438 /* [CP] Check Pods Manifest.lock */,
 				FE0781BD1D5AD8EA007D0FD6 /* Sources */,
 				FE0781BE1D5AD8EA007D0FD6 /* Frameworks */,
 				FE0781BF1D5AD8EA007D0FD6 /* Resources */,
+				06E152D3F866FA06173B22E6 /* [CP] Embed Pods Frameworks */,
+				5A98ADE3BDC7E0C8941C74B5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,13 +203,64 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEA1CFD21D63EF6900A49CD6 /* Houd Icon.png in Resources */,
 				FE0781CF1D5AD8EA007D0FD6 /* LaunchScreen.storyboard in Resources */,
+				FEA1CFD41D63F09800A49CD6 /* Icon-60.png in Resources */,
 				FE0781CC1D5AD8EA007D0FD6 /* Assets.xcassets in Resources */,
 				FE0781CA1D5AD8EA007D0FD6 /* Main.storyboard in Resources */,
+				FEA1CFD01D63EBB200A49CD6 /* F_icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06E152D3F866FA06173B22E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Houd/Pods-Houd-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D95394AE86BAD599A910438 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5A98ADE3BDC7E0C8941C74B5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Houd/Pods-Houd-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FE0781BD1D5AD8EA007D0FD6 /* Sources */ = {
@@ -137,6 +268,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE0781C71D5AD8EA007D0FD6 /* ViewController.swift in Sources */,
+				FE0781D71D5ADF8A007D0FD6 /* TelaInicialViewController.swift in Sources */,
+				FED514C31D615BDB0073F96C /* TelaRegistroViewController.swift in Sources */,
 				FE0781C51D5AD8EA007D0FD6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,23 +381,40 @@
 		};
 		FE0781D41D5AD8EA007D0FD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75BBA3645FFC0D0070196EAC /* Pods-Houd.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"~/FacebookSDKs-iOS-4",
+				);
 				INFOPLIST_FILE = Houd/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Home.Erik.Houd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Houd-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		FE0781D51D5AD8EA007D0FD6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 289DDEB78208ED81F0D3710F /* Pods-Houd.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"~/FacebookSDKs-iOS-4",
+				);
 				INFOPLIST_FILE = Houd/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Home.Erik.Houd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Houd-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -287,6 +437,7 @@
 				FE0781D51D5AD8EA007D0FD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
