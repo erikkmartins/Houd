@@ -11,19 +11,23 @@ import UIKit
 class TelaInicialViewController: UIViewController {
     
     var toPass: String!
+    
+    let defaults = `NSUserDefaults`.standardUserDefaults()
 
-    @IBOutlet var lblWelcome: UILabel!
+    @IBOutlet var lblDefaults: UILabel!
+
     @IBOutlet var lblStatus: UILabel!
    
     @IBAction func btnLogout(sender: AnyObject) {
         
         let loginManager = FBSDKLoginManager()
         loginManager.logOut()
-        
+
+        self.defaults.setObject(false, forKey: "statusAutentica")
+        self.defaults.synchronize()
     }
     
-    @IBAction func unwindToVC(segue: UIStoryboardSegue) {
-    }
+
     
     
     override func viewDidLoad() {
@@ -31,15 +35,8 @@ class TelaInicialViewController: UIViewController {
    
         lblStatus.text = toPass
         
-        FBSDKGraphRequest(graphPath: "me", parameters: ["fields": "id, name, first_name, relationship_status"]).startWithCompletionHandler({ (connection, result, error) -> Void in
-            if (error == nil){
-                //let fbDetails = result as! NSDictionary
-                //print(fbDetails)
-                self.lblWelcome.text = result.valueForKey("first_name") as? String
-            }
-        })
+        lblDefaults.text = defaults.objectForKey("email") as? String
         
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
