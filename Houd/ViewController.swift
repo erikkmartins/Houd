@@ -25,7 +25,7 @@ extension UIViewController {
 class ViewController: UIViewController {
     var TelaInicial: TelaInicialViewController?
     //var statusAutentica: Bool = false
-    var urlWS: String! = "http://localhost:7171" //URL base para pesquisa de estabelecimentos
+    var urlWS: String! = "http://192.168.1.31:7171" //URL base para pesquisa de estabelecimentos
     @IBOutlet var txtEmail: UITextField!
     @IBOutlet var txtSenha: UITextField!
       @IBOutlet var fbImage: UIImageView!

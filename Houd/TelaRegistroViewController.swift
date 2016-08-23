@@ -20,32 +20,37 @@ class TelaRegistroViewController: UIViewController {
     @IBOutlet var dataPicker: UIDatePicker!
     let dateFormatter = NSDateFormatter()
     let timeFormatter = NSDateFormatter()
-    var segValue: String! = "M"
-    var urlWS: String! = "http://localhost:7171" //URL base para pesquisa de estabelecimentos
+   
+    var urlWS: String! = "http://192.168.1.31:7171" //URL base para pesquisa de estabelecimentos
     var vw: ViewController?
     
-    @IBAction func segChanged(sender: AnyObject) {
-        switch segSexo.selectedSegmentIndex
-        {
-        case 0:
-            self.segValue = "M";
-        case 1:
-            self.segValue = "F";
-        default:
-            break; 
-        } 
-    }
+
     
 
     
     @IBAction func btnConfirma(sender: AnyObject) {
         let url = "\(urlWS)\("/register")"
+        var segvalue: String? = nil
+        
+        switch segSexo.selectedSegmentIndex
+        {
+        case 0:
+             segvalue = "M";
+        case 1:
+             segvalue = "F";
+        default:
+            break;
+        }
+
+        
 
         if  let nome = txtNome.text,
             let email = txtEmail.text,
             let senha = txtSenha.text,
-            let sexo = self.segValue,
+            let sexo = segvalue,
             let data = txtDataNascimento.text{
+        
+            
             
             let dateFormater = NSDateFormatter()
             dateFormater.dateFormat = "yyyy-MM-dd"
@@ -72,7 +77,7 @@ class TelaRegistroViewController: UIViewController {
                 //let value = response.result.value!
                 print(response)
                             if response.result.value?.stringValue == "0" {
-                                let msg = "Usuario já existe! \n Esqueceu sua senha? Contate o suporte."
+                                let msg = "Usuario já existe! \n Esqueceu sua senha? \n Contate o suporte."
                                 
                                 let alerta = UIAlertController(title: "Aviso", message: msg, preferredStyle: .Alert)
                                 
@@ -93,7 +98,6 @@ class TelaRegistroViewController: UIViewController {
                                     handler: nil)
                                 )
                                 self.presentViewController(alerta, animated: true, completion: nil)
-                                
                 }
             }
         } else {
