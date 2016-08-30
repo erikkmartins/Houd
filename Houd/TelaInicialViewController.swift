@@ -28,14 +28,12 @@ class TelaInicialViewController: UIViewController {
     }
     
 
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
    
         lblStatus.text = toPass
         
-        lblDefaults.text = defaults.objectForKey("email") as? String
+        lblDefaults.text = defaults.objectForKey("name") as? String
         
     }
 
@@ -44,7 +42,10 @@ class TelaInicialViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    override func viewWillAppear(animated: Bool)
+    {
+        self.navigationController?.navigationBarHidden = true
+    }
     /*
     // MARK: - Navigation
 

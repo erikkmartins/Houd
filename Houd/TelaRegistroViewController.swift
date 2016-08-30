@@ -21,7 +21,7 @@ class TelaRegistroViewController: UIViewController {
     let dateFormatter = NSDateFormatter()
     let timeFormatter = NSDateFormatter()
    
-    var urlWS: String! = "http://192.168.1.31:7171" //URL base para pesquisa de estabelecimentos
+   // var urlWS: String! = "http://192.168.1.31:7171" //URL base para pesquisa de estabelecimentos
     var vw: ViewController?
     
 
@@ -71,11 +71,11 @@ class TelaRegistroViewController: UIViewController {
                 "sexo":  sexo,
                 "datanascimento": data
             ]
-            print(parameters)
+           // print(parameters)
             
             Alamofire.request(.PUT, url, parameters: parameters, encoding: .JSON) .responseJSON { response in
                 //let value = response.result.value!
-                print(response)
+              //  print(response)
                             if response.result.value?.stringValue == "0" {
                                 let msg = "Usuario já existe! \n Esqueceu sua senha? \n Contate o suporte."
                                 

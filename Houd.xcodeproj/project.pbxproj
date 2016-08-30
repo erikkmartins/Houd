@@ -17,9 +17,11 @@
 		FE0781DE1D5AE38C007D0FD6 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE0781DB1D5AE38C007D0FD6 /* FBSDKCoreKit.framework */; };
 		FE0781DF1D5AE38C007D0FD6 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE0781DC1D5AE38C007D0FD6 /* FBSDKLoginKit.framework */; };
 		FE0781E01D5AE38C007D0FD6 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE0781DD1D5AE38C007D0FD6 /* FBSDKShareKit.framework */; };
-		FEA1CFD01D63EBB200A49CD6 /* F_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FEA1CFCF1D63EBB200A49CD6 /* F_icon.png */; };
-		FEA1CFD21D63EF6900A49CD6 /* Houd Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FEA1CFD11D63EF6900A49CD6 /* Houd Icon.png */; };
-		FEA1CFD41D63F09800A49CD6 /* Icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = FEA1CFD31D63F09800A49CD6 /* Icon-60.png */; };
+		FE327E1E1D6FEF6000D27F88 /* ProdutoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE327E1D1D6FEF6000D27F88 /* ProdutoViewController.swift */; };
+		FE327E201D722DB900D27F88 /* Produto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE327E1F1D722DB900D27F88 /* Produto.swift */; };
+		FE73037B1D6E9F98000C9950 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE73037A1D6E9F98000C9950 /* DataService.swift */; };
+		FE73037E1D6EA061000C9950 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE73037D1D6EA061000C9950 /* Constants.swift */; };
+		FE7303821D6EA28C000C9950 /* BarcodeReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7303811D6EA28C000C9950 /* BarcodeReaderViewController.swift */; };
 		FED514C31D615BDB0073F96C /* TelaRegistroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED514C21D615BDB0073F96C /* TelaRegistroViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,9 +41,11 @@
 		FE0781DC1D5AE38C007D0FD6 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		FE0781DD1D5AE38C007D0FD6 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
 		FE0781E11D5AE7A5007D0FD6 /* Houd-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Houd-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
-		FEA1CFCF1D63EBB200A49CD6 /* F_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = F_icon.png; sourceTree = "<group>"; };
-		FEA1CFD11D63EF6900A49CD6 /* Houd Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Houd Icon.png"; sourceTree = "<group>"; };
-		FEA1CFD31D63F09800A49CD6 /* Icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60.png"; sourceTree = "<group>"; };
+		FE327E1D1D6FEF6000D27F88 /* ProdutoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProdutoViewController.swift; path = ../ProdutoViewController.swift; sourceTree = "<group>"; };
+		FE327E1F1D722DB900D27F88 /* Produto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Produto.swift; sourceTree = "<group>"; };
+		FE73037A1D6E9F98000C9950 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		FE73037D1D6EA061000C9950 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FE7303811D6EA28C000C9950 /* BarcodeReaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarcodeReaderViewController.swift; sourceTree = "<group>"; };
 		FED514C21D615BDB0073F96C /* TelaRegistroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TelaRegistroViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,16 +103,16 @@
 		FE0781C31D5AD8EA007D0FD6 /* Houd */ = {
 			isa = PBXGroup;
 			children = (
-				FEA1CFCD1D63EBB200A49CD6 /* Images */,
-				FE0781E11D5AE7A5007D0FD6 /* Houd-Bridging-Header.h */,
-				FE0781C41D5AD8EA007D0FD6 /* AppDelegate.swift */,
-				FE0781C61D5AD8EA007D0FD6 /* ViewController.swift */,
-				FE0781C81D5AD8EA007D0FD6 /* Main.storyboard */,
+				FE73037C1D6EA052000C9950 /* Utility */,
+				FE327E211D722DC500D27F88 /* Model */,
+				FE7303791D6E9F75000C9950 /* Services */,
+				FE7303801D6EA1EE000C9950 /* Controller */,
 				FE0781CB1D5AD8EA007D0FD6 /* Assets.xcassets */,
+				FE0781C81D5AD8EA007D0FD6 /* Main.storyboard */,
+				FE0781E11D5AE7A5007D0FD6 /* Houd-Bridging-Header.h */,
 				FE0781CD1D5AD8EA007D0FD6 /* LaunchScreen.storyboard */,
+				FE0781C41D5AD8EA007D0FD6 /* AppDelegate.swift */,
 				FE0781D01D5AD8EA007D0FD6 /* Info.plist */,
-				FE0781D61D5ADF8A007D0FD6 /* TelaInicialViewController.swift */,
-				FED514C21D615BDB0073F96C /* TelaRegistroViewController.swift */,
 			);
 			path = Houd;
 			sourceTree = "<group>";
@@ -123,22 +127,40 @@
 			name = Structs;
 			sourceTree = "<group>";
 		};
-		FEA1CFCD1D63EBB200A49CD6 /* Images */ = {
+		FE327E211D722DC500D27F88 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				FEA1CFCE1D63EBB200A49CD6 /* Icons */,
+				FE327E1F1D722DB900D27F88 /* Produto.swift */,
 			);
-			path = Images;
+			name = Model;
 			sourceTree = "<group>";
 		};
-		FEA1CFCE1D63EBB200A49CD6 /* Icons */ = {
+		FE7303791D6E9F75000C9950 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				FEA1CFD11D63EF6900A49CD6 /* Houd Icon.png */,
-				FEA1CFD31D63F09800A49CD6 /* Icon-60.png */,
-				FEA1CFCF1D63EBB200A49CD6 /* F_icon.png */,
+				FE73037A1D6E9F98000C9950 /* DataService.swift */,
 			);
-			path = Icons;
+			name = Services;
+			sourceTree = "<group>";
+		};
+		FE73037C1D6EA052000C9950 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				FE73037D1D6EA061000C9950 /* Constants.swift */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		FE7303801D6EA1EE000C9950 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FE7303811D6EA28C000C9950 /* BarcodeReaderViewController.swift */,
+				FE0781C61D5AD8EA007D0FD6 /* ViewController.swift */,
+				FE0781D61D5ADF8A007D0FD6 /* TelaInicialViewController.swift */,
+				FED514C21D615BDB0073F96C /* TelaRegistroViewController.swift */,
+				FE327E1D1D6FEF6000D27F88 /* ProdutoViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,12 +225,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEA1CFD21D63EF6900A49CD6 /* Houd Icon.png in Resources */,
 				FE0781CF1D5AD8EA007D0FD6 /* LaunchScreen.storyboard in Resources */,
-				FEA1CFD41D63F09800A49CD6 /* Icon-60.png in Resources */,
 				FE0781CC1D5AD8EA007D0FD6 /* Assets.xcassets in Resources */,
 				FE0781CA1D5AD8EA007D0FD6 /* Main.storyboard in Resources */,
-				FEA1CFD01D63EBB200A49CD6 /* F_icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,10 +286,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE7303821D6EA28C000C9950 /* BarcodeReaderViewController.swift in Sources */,
 				FE0781C71D5AD8EA007D0FD6 /* ViewController.swift in Sources */,
+				FE327E201D722DB900D27F88 /* Produto.swift in Sources */,
+				FE327E1E1D6FEF6000D27F88 /* ProdutoViewController.swift in Sources */,
 				FE0781D71D5ADF8A007D0FD6 /* TelaInicialViewController.swift in Sources */,
 				FED514C31D615BDB0073F96C /* TelaRegistroViewController.swift in Sources */,
 				FE0781C51D5AD8EA007D0FD6 /* AppDelegate.swift in Sources */,
+				FE73037B1D6E9F98000C9950 /* DataService.swift in Sources */,
+				FE73037E1D6EA061000C9950 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
