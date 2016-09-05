@@ -39,9 +39,6 @@ class ViewControllerConsultaRestaurante: UIViewController, UIPickerViewDataSourc
     
     var teste : String = ""
     
-    //var wsServer: String = "http://201.95.84.164:7171/pesquisa"
-    
-    var urlWS: String! = "http://houdapp.ddns.net:7171" //URL base para pesquisa de estabelecimentos
     
     
     var pickOption = ["Todos","Lactose","Gluten"]
