@@ -28,6 +28,8 @@ class ProdutoViewController: UIViewController {
     
     @IBAction func btnCadastrarClicked(Sender:UIButton) {
         
+      
+        
            
         let url = "\(urlWS)\("/regproduto")"
         

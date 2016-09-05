@@ -22,6 +22,16 @@
 		FE73037B1D6E9F98000C9950 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE73037A1D6E9F98000C9950 /* DataService.swift */; };
 		FE73037E1D6EA061000C9950 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE73037D1D6EA061000C9950 /* Constants.swift */; };
 		FE7303821D6EA28C000C9950 /* BarcodeReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7303811D6EA28C000C9950 /* BarcodeReaderViewController.swift */; };
+		FE8027591D7D19F300BC17F2 /* VenuesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE80274F1D7D19F300BC17F2 /* VenuesList.swift */; };
+		FE80275A1D7D19F300BC17F2 /* APIFoursquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8027501D7D19F300BC17F2 /* APIFoursquare.swift */; };
+		FE80275B1D7D19F300BC17F2 /* TableViewControllerCadastrarRestaurante.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8027511D7D19F300BC17F2 /* TableViewControllerCadastrarRestaurante.swift */; };
+		FE80275C1D7D19F300BC17F2 /* ViewConstrollerMostraCadastroRestaurante.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8027521D7D19F300BC17F2 /* ViewConstrollerMostraCadastroRestaurante.swift */; };
+		FE80275D1D7D19F300BC17F2 /* ViewControllerMedicos.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8027531D7D19F300BC17F2 /* ViewControllerMedicos.swift */; };
+		FE80275E1D7D19F300BC17F2 /* TableViewControllerMedico.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8027541D7D19F300BC17F2 /* TableViewControllerMedico.swift */; };
+		FE80275F1D7D19F300BC17F2 /* ViewControllerConsultarRestauranteGeo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8027551D7D19F300BC17F2 /* ViewControllerConsultarRestauranteGeo.swift */; };
+		FE8027601D7D19F300BC17F2 /* ViewControllerConsultaRestaurante.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8027561D7D19F300BC17F2 /* ViewControllerConsultaRestaurante.swift */; };
+		FE8027611D7D19F300BC17F2 /* ViewControllerMostraConsultaRestaurante.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8027571D7D19F300BC17F2 /* ViewControllerMostraConsultaRestaurante.swift */; };
+		FE8027621D7D19F300BC17F2 /* TableViewControllerConsultaRestaurante.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8027581D7D19F300BC17F2 /* TableViewControllerConsultaRestaurante.swift */; };
 		FE906B251D752A47007071F2 /* PesProdutoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE906B241D752A47007071F2 /* PesProdutoViewController.swift */; };
 		FE906B291D791CCF007071F2 /* ProdutoDetalheViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE906B281D791CCF007071F2 /* ProdutoDetalheViewController.swift */; };
 		FED514C31D615BDB0073F96C /* TelaRegistroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED514C21D615BDB0073F96C /* TelaRegistroViewController.swift */; };
@@ -48,6 +58,16 @@
 		FE73037A1D6E9F98000C9950 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		FE73037D1D6EA061000C9950 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		FE7303811D6EA28C000C9950 /* BarcodeReaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarcodeReaderViewController.swift; sourceTree = "<group>"; };
+		FE80274F1D7D19F300BC17F2 /* VenuesList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenuesList.swift; sourceTree = "<group>"; };
+		FE8027501D7D19F300BC17F2 /* APIFoursquare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIFoursquare.swift; sourceTree = "<group>"; };
+		FE8027511D7D19F300BC17F2 /* TableViewControllerCadastrarRestaurante.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewControllerCadastrarRestaurante.swift; sourceTree = "<group>"; };
+		FE8027521D7D19F300BC17F2 /* ViewConstrollerMostraCadastroRestaurante.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewConstrollerMostraCadastroRestaurante.swift; sourceTree = "<group>"; };
+		FE8027531D7D19F300BC17F2 /* ViewControllerMedicos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerMedicos.swift; sourceTree = "<group>"; };
+		FE8027541D7D19F300BC17F2 /* TableViewControllerMedico.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewControllerMedico.swift; sourceTree = "<group>"; };
+		FE8027551D7D19F300BC17F2 /* ViewControllerConsultarRestauranteGeo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerConsultarRestauranteGeo.swift; sourceTree = "<group>"; };
+		FE8027561D7D19F300BC17F2 /* ViewControllerConsultaRestaurante.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerConsultaRestaurante.swift; sourceTree = "<group>"; };
+		FE8027571D7D19F300BC17F2 /* ViewControllerMostraConsultaRestaurante.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerMostraConsultaRestaurante.swift; sourceTree = "<group>"; };
+		FE8027581D7D19F300BC17F2 /* TableViewControllerConsultaRestaurante.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewControllerConsultaRestaurante.swift; sourceTree = "<group>"; };
 		FE906B241D752A47007071F2 /* PesProdutoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PesProdutoViewController.swift; sourceTree = "<group>"; };
 		FE906B281D791CCF007071F2 /* ProdutoDetalheViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProdutoDetalheViewController.swift; sourceTree = "<group>"; };
 		FED514C21D615BDB0073F96C /* TelaRegistroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TelaRegistroViewController.swift; sourceTree = "<group>"; };
@@ -158,6 +178,16 @@
 		FE7303801D6EA1EE000C9950 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				FE80274F1D7D19F300BC17F2 /* VenuesList.swift */,
+				FE8027501D7D19F300BC17F2 /* APIFoursquare.swift */,
+				FE8027511D7D19F300BC17F2 /* TableViewControllerCadastrarRestaurante.swift */,
+				FE8027521D7D19F300BC17F2 /* ViewConstrollerMostraCadastroRestaurante.swift */,
+				FE8027531D7D19F300BC17F2 /* ViewControllerMedicos.swift */,
+				FE8027541D7D19F300BC17F2 /* TableViewControllerMedico.swift */,
+				FE8027551D7D19F300BC17F2 /* ViewControllerConsultarRestauranteGeo.swift */,
+				FE8027561D7D19F300BC17F2 /* ViewControllerConsultaRestaurante.swift */,
+				FE8027571D7D19F300BC17F2 /* ViewControllerMostraConsultaRestaurante.swift */,
+				FE8027581D7D19F300BC17F2 /* TableViewControllerConsultaRestaurante.swift */,
 				FE7303811D6EA28C000C9950 /* BarcodeReaderViewController.swift */,
 				FE0781C61D5AD8EA007D0FD6 /* ViewController.swift */,
 				FE0781D61D5ADF8A007D0FD6 /* TelaInicialViewController.swift */,
@@ -292,16 +322,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE8027601D7D19F300BC17F2 /* ViewControllerConsultaRestaurante.swift in Sources */,
 				FE7303821D6EA28C000C9950 /* BarcodeReaderViewController.swift in Sources */,
 				FE0781C71D5AD8EA007D0FD6 /* ViewController.swift in Sources */,
 				FE327E201D722DB900D27F88 /* Produto.swift in Sources */,
+				FE8027611D7D19F300BC17F2 /* ViewControllerMostraConsultaRestaurante.swift in Sources */,
+				FE80275F1D7D19F300BC17F2 /* ViewControllerConsultarRestauranteGeo.swift in Sources */,
 				FE327E1E1D6FEF6000D27F88 /* ProdutoViewController.swift in Sources */,
 				FE0781D71D5ADF8A007D0FD6 /* TelaInicialViewController.swift in Sources */,
 				FED514C31D615BDB0073F96C /* TelaRegistroViewController.swift in Sources */,
+				FE80275C1D7D19F300BC17F2 /* ViewConstrollerMostraCadastroRestaurante.swift in Sources */,
 				FE0781C51D5AD8EA007D0FD6 /* AppDelegate.swift in Sources */,
 				FE906B291D791CCF007071F2 /* ProdutoDetalheViewController.swift in Sources */,
+				FE80275D1D7D19F300BC17F2 /* ViewControllerMedicos.swift in Sources */,
 				FE73037B1D6E9F98000C9950 /* DataService.swift in Sources */,
+				FE8027591D7D19F300BC17F2 /* VenuesList.swift in Sources */,
+				FE8027621D7D19F300BC17F2 /* TableViewControllerConsultaRestaurante.swift in Sources */,
+				FE80275B1D7D19F300BC17F2 /* TableViewControllerCadastrarRestaurante.swift in Sources */,
 				FE73037E1D6EA061000C9950 /* Constants.swift in Sources */,
+				FE80275A1D7D19F300BC17F2 /* APIFoursquare.swift in Sources */,
+				FE80275E1D7D19F300BC17F2 /* TableViewControllerMedico.swift in Sources */,
 				FE906B251D752A47007071F2 /* PesProdutoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
